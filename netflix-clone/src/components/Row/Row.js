@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "../../api/axios";
 
-import styles from "./styles.css";
+import "./styles.css";
 
 const baseUrl = "https://image.tmdb.org/t/p/w500/";
 
