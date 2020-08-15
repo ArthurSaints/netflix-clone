@@ -2,6 +2,7 @@ import React from "react";
 
 import Row from "../src/components/Row/Row";
 import Banner from "../src/components/Banner/Banner";
+import Nav from "../src/components/Nav/Nav";
 
 import requests from "../src/api/requests";
 
@@ -10,6 +11,7 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
+      <Nav />
       <Banner />
       <Row
         isLargeRow={true}
