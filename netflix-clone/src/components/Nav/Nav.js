@@ -29,7 +29,7 @@ function Nav() {
       <img
         className="navAvatar"
         src="https://pbs.twimg.com/media/DmtcXxYUcAYshhQ.jpg"
-        alt="User Picture"
+        alt="User"
       />
     </div>
   );
