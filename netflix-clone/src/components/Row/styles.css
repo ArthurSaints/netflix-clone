@@ -1,0 +1,19 @@
+.row {
+}
+
+.rowPosters {
+  display: flex;
+}
+
+.rowPoster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 150px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.rowPoster:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
